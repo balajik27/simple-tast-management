@@ -1,0 +1,72 @@
+
+
+#taskMgt{
+
+}
+
+.assignmentTitle{
+    color: red;
+}
+
+.defaultIconStyle{
+    font-size: 17px;
+    color: red;
+    cursor: pointer;
+}
+
+.assignPerson{
+    border: none;
+    outline: none;
+}
+
+.profileImg{
+    height: 50px;
+    width: 50px;
+}
+
+.sendIcon{
+    color: red;
+    font-size: 20px;
+}
+.sendIconBox{
+    height: inherit;
+}
+.sendIconBox:hover{
+    background: rgb(255, 205, 205);
+    cursor: pointer;
+}
+
+.profileCommentImg{
+    height: 40px;
+    width: 40px;
+}
+
+.commentBox{
+    max-height: 200px ;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background: rgb(185, 185, 185);
+}
+
+
+.deleteIconBox:hover{
+    cursor: pointer;
+    background: rgb(255, 204, 204);
+}
+.checkBox{
+    cursor: pointer;
+}
+.checkBox:hover{
+   background: rgb(255, 214, 214);
+}
