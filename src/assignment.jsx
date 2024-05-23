@@ -59,7 +59,7 @@ export const Assignment = ()=>{
                     <span>Note :</span>
                 </div>
                 <div className="  px-2 w-100">
-                    <textarea name="" className="rounded-3 p-2" onChange={(e)=>setEventDetails({...eventDetails , note : e.target.value})} id="" cols="30" rows="3"></textarea>
+                    <textarea name="" className="rounded-3 p-2 w-100" onChange={(e)=>setEventDetails({...eventDetails , note : e.target.value})} id="" cols="0" rows="3"></textarea>
                 </div>
             </div>
         </div>
